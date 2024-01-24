@@ -21,6 +21,7 @@ enum class EllipsoidType {
  * on
  * @return      ellipsoid's parameters
  */
+__declspec(dllexport) // Denver Pilphis: Export this function for use
 Parameters fit(const Eigen::Matrix<double, Eigen::Dynamic, 3>& data,
                EllipsoidType type = EllipsoidType::Arbitrary);
 
@@ -36,6 +37,7 @@ Parameters fit(const Eigen::Matrix<double, Eigen::Dynamic, 3>& data,
  * \f}
  * @return      ellipsoid's parameters
  */
+__declspec(dllexport) // Denver Pilphis: Export this function for use
 Parameters fit(const Eigen::Matrix<double, Eigen::Dynamic, 3>& data,
     Eigen::Matrix<double, 10, 1>* coefficients, 
     EllipsoidType type = EllipsoidType::Arbitrary);
