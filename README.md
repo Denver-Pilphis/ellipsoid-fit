@@ -4,7 +4,7 @@ ellipsoid-fit
 
 Ellipsoid fitting in C++ using Eigen. Widely inspired by https://www.mathworks.com/matlabcentral/fileexchange/24693-ellipsoid-fit
 
-
+This fork is a modification of the original repository for [CMake](https://github.com/Kitware/CMake) compilation of a shared library on Windows using Microsoft Visual Studio with [vcpkg](https://github.com/microsoft/vcpkg) support. The license of this fork keeps the same as the original repository as **GNULGPL**. Please look at the [license.txt](./license.txt) file at the root of this repository for more details.
 
 # Disclaimer
 
@@ -136,3 +136,6 @@ Authors
 + Benjamin Navarro (LIRMM)
 
 Please contact Benjamin Navarro (navarro@lirmm.fr) - LIRMM for more information or questions.
+
+Author for this fork (compilation on Windows):
++ Denver Pilphis (Di Peng)
